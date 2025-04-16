@@ -1,0 +1,86 @@
+html, body, .container-fluid {
+    background-color: rgb(163, 241, 255);
+}
+
+.nav-bar{
+    background-color: rgb(138, 223, 245);
+    border-radius: 0 0 40% 40%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#btnstyle {
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(126, 214, 236);
+    border-radius: 10px;
+}
+
+.j{
+    background-color: rgb(122, 213, 255);
+    border-radius: 30vw;
+    padding: 2%;
+    margin: 2vh 2vw 8vh;
+    text-align: center;
+}
+
+#card-group {
+    margin: 0 auto 15%;
+    gap: 5%;
+    height: 20vh;
+}
+
+#card {
+    padding: 10%;
+    background-color: rgb(147, 227, 241);
+    margin: 0 auto;
+}
+
+#autos {
+    margin: 0 auto 12vh;
+    width: 60vw;
+    min-width: 300px;
+}
+
+.calc {
+    padding-top: 10vh;
+    text-align: center;
+    background-color: rgb(106, 216, 243);
+    height: 70vh;
+    width: 26%;
+}
+
+#texto {
+    font-size: xx-large;
+    height: 8vh;
+    width: 30vh;
+    margin-right: 1vw;
+}
+
+#btncalc {
+    font-size: 4vh;
+    width: 8vh;
+    height: fit-content;
+    background-color: rgb(132, 205, 223);
+    border-radius: 100vw;
+    margin-top: 1vh;
+    margin: 1%;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(85, 194, 221);
+    height: 16vh;
+    width: 100%;
+    border-radius: 25% 25% 0 0;
+    margin-top: 4vh;
+    padding: 4vh 20%;
+}
+
+.redes {
+    display: flex;
+    height: 10vh;
+    margin: 0 auto;
+}
