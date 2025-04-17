@@ -47,11 +47,10 @@ html, body, .container-fluid {
 }
 
 .calc {
-    padding-top: 10vh;
+    padding-top: 1%;
     text-align: center;
     background-color: rgb(106, 216, 243);
-    height: 70vh;
-    width: 26%;
+    height: 60vh;
     margin: 0 auto;
     border-radius: 5%;
 }
