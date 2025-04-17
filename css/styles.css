@@ -19,10 +19,11 @@ html, body, .container-fluid {
 }
 
 .j{
+    font-family: Georgia, sans-serif;
     background-color: rgb(122, 213, 255);
     border-radius: 30vw;
     padding: 2%;
-    margin: 2vh 2vw 8vh;
+    margin: 3vh 2vw 0;
     text-align: center;
 }
 
@@ -39,7 +40,8 @@ html, body, .container-fluid {
 }
 
 #autos {
-    margin: 0 auto 12vh;
+    text-align: center;
+    margin: 8vh auto 12vh;
     width: 60vw;
     min-width: 300px;
 }
@@ -50,6 +52,8 @@ html, body, .container-fluid {
     background-color: rgb(106, 216, 243);
     height: 70vh;
     width: 26%;
+    margin: 0 auto;
+    border-radius: 5%;
 }
 
 #texto {
@@ -71,6 +75,9 @@ html, body, .container-fluid {
 
 footer {
     display: flex;
+    gap: 50%;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(85, 194, 221);
     height: 16vh;
     width: 100%;
@@ -80,7 +87,5 @@ footer {
 }
 
 .redes {
-    display: flex;
     height: 10vh;
-    margin: 0 auto;
 }
