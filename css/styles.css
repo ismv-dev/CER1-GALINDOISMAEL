@@ -12,7 +12,7 @@ html, body, .container-fluid {
 }
 
 #btnstyle {
-    font-size: medium;
+    font-size: 2vh;
     text-align: center;
     background-color: rgb(126, 214, 236);
     border-radius: 10px;
