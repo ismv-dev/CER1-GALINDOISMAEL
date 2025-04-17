@@ -75,7 +75,7 @@ html, body, .container-fluid {
 
 footer {
     display: flex;
-    gap: 50%;
+    gap: 40%;
     justify-content: center;
     align-items: center;
     background-color: rgb(85, 194, 221);
@@ -86,6 +86,6 @@ footer {
     padding: 4vh 20%;
 }
 
-.redes {
+#redes {
     height: 10vh;
 }
