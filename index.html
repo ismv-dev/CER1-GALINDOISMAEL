@@ -13,11 +13,11 @@
         <div class="nav-bar sticky-top d-flex">
             <a class="btn" id="btnstyle" onclick="location.href='#inicio'">Inicio</a>
             <a class="btn" id="btnstyle" onclick="location.href='#autos'">Autos</a>
-            <a class="btn" id="btnstyle" onclick="location.href='#calc'">Calculadora</a>
+            <a class="btn" id="btnstyle" onclick="location.href='#calculadora'">Calculadora</a>
             <a class="btn" id="btnstyle" onclick="location.href='#redes'">Redes</a>
         </div>
             <section class="jumbotron j">
-                <img src="img/usm-logo.png" alt="" style="width:5vw">
+                <img src="img/usm-logo.png" alt="" style="width:10vh">
                 <h1 class="display-2">Ismael Galindo</h1>
                 <h3 class="display-6">Estudiante de Ingenieria Informática</h3>
                 <br>
@@ -93,36 +93,41 @@
             </div>
         </section>
 
-        <section class="col-11 col-lg-4 calc" id="calc">
-            <h3 style="margin: 2vh 0 2vh 0;">Calculadora</h3>
-            <input type="text" id="texto" disabled></input>
-            <button class="btn" id="btncalc" onclick="clr()">clr</button>
-            <button class="btn" id="btncalc" onclick="del()"><-</button>
-            <br>
-            <button class="btn" id="btncalc" onclick="agregar('(')">(</button>
-            <button class="btn" id="btncalc" onclick="agregar('7')">7</button>
-            <button class="btn" id="btncalc" onclick="agregar('8')">8</button>
-            <button class="btn" id="btncalc" onclick="agregar('9')">9</button>
-            <button class="btn" id="btncalc" onclick="agregar('/')">/</button>
-            <br>
-            <button class="btn" id="btncalc" onclick="agregar(')')">)</button>
-            <button class="btn" id="btncalc" onclick="agregar('4')">4</button>
-            <button class="btn" id="btncalc" onclick="agregar('5')">5</button>
-            <button class="btn" id="btncalc" onclick="agregar('6')">6</button>
-            <button class="btn" id="btncalc" onclick="agregar('*')">x</button>
-            <br>
-            <button class="btn" id="btncalc" onclick="agregar('**')">^</button>
-            <button class="btn" id="btncalc" onclick="agregar('1')">1</button>
-            <button class="btn" id="btncalc" onclick="agregar('2')">2</button>
-            <button class="btn" id="btncalc" onclick="agregar('3')">3</button>
-            <button class="btn" id="btncalc" onclick="agregar('+')">+</button>
-            <br>
-            <button class="btn" id="btncalc" onclick="agregar('log10(')">lg</button>
-            <button class="btn" id="btncalc" onclick="agregar('.')">.</button>
-            <button class="btn" id="btncalc" onclick="agregar('0')">0</button>
-            <button class="btn" id="btncalc" onclick="agregar('-')">-</button>
-            <button class="btn" id="btncalc" onclick="calcular()">=</button>
+        <section class="calculadora" id="calculadora" style="padding: 1%;">
+            <h3 style="text-align: center;">Calculadora</h3>
+            <input type="text" id="texto" disabled>
+            <div class="btnscalc">
+                <button class="btncalc" onclick="clr()">clr</button>
+                <button class="btncalc" onclick="del()"><-</button>
+                <button class="btncalc" onclick="agregar(')/100'); agregarInicio('(')">%</button>
+                <button class="btncalc" onclick="agregar('/')">/</button>
+            </div>
+            <div class="btnscalc">
+                <button class="btncalc" onclick="agregar('7')">7</button>
+                <button class="btncalc" onclick="agregar('8')">8</button>
+                <button class="btncalc" onclick="agregar('9')">9</button>
+                <button class="btncalc" onclick="agregar('*')">x</button>
+            </div>
+            <div class="btnscalc">
+                <button class="btncalc" onclick="agregar('4')">4</button>
+                <button class="btncalc" onclick="agregar('5')">5</button>
+                <button class="btncalc" onclick="agregar('6')">6</button>
+                <button class="btncalc" onclick="agregar('-')">-</button>
+            </div>
+            <div class="btnscalc">
+                <button class="btncalc" onclick="agregar('1')">1</button>
+                <button class="btncalc" onclick="agregar('2')">2</button>
+                <button class="btncalc" onclick="agregar('3')">3</button>
+                <button class="btncalc" onclick="agregar('+')">+</button>
+            </div>
+            <div class="btnscalc">
+                <button class="btncalc" onclick="agregar(')'); agregarInicio('log(')">lg</button>
+                <button class="btncalc" onclick="agregar('0')">0</button>
+                <button class="btncalc" onclick="agregar('.')">.</button>
+                <button class="btncalc" onclick="calcular()">=</button>
+            </div>
         </section>
+
         <footer>
             <a href="https://github.com/ismv-dev" target="_blank" class="redes"><img id="redes" src="img/github.png" alt="GitHub"></a>
             <a href="https://www.linkedin.com/in/ismv-dev/" target="_blank" class="redes"><img id="redes" src="img/lnkdin.png" alt="LinkedIn"></a>

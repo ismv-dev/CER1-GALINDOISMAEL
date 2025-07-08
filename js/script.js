@@ -5,6 +5,10 @@ function agregar(x) {
     display.value += x;
 }
 
+function agregarInicio(x) {
+    display.value = x+display.value;
+}
+
 function clr() {
     display.value = '';
 }

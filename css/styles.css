@@ -14,7 +14,7 @@ html, body, .container-fluid {
 #btnstyle {
     font-size: 2vh;
     text-align: center;
-    background-color: rgb(126, 214, 236);
+    background-color: rgb(101, 205, 231);
     border-radius: 10px;
 }
 
@@ -46,30 +46,39 @@ html, body, .container-fluid {
     min-width: 300px;
 }
 
-.calc {
-    padding-top: 1%;
-    text-align: center;
-    background-color: rgb(106, 216, 243);
-    height: 60vh;
-    margin: 0 auto;
-    border-radius: 5%;
-}
-
 #texto {
-    font-size: xx-large;
-    height: 8vh;
+    display: block;
+    margin: 1vh auto;
+    height: 4vh;
     width: 30vh;
-    margin-right: 1vw;
+    font-size: 1vw;
 }
 
-#btncalc {
-    font-size: 4vh;
+.calculadora {
+    width: 40vh;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: rgb(40, 191, 228);
+    border-radius: 2vw;
+}
+
+.btnscalc {
+    display: flex;
+    justify-content: center;
+}
+
+.btncalc {
+    font-size: 3vh;
     width: 8vh;
     height: fit-content;
     background-color: rgb(132, 205, 223);
     border-radius: 100vw;
     margin-top: 1vh;
     margin: 1%;
+}
+
+.btncalc:hover {
+  background-color: #97979797;
 }
 
 footer {
