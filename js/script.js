@@ -1,26 +1,46 @@
+var nAleatorio = math.ceil(math.random()*10);
 
-const display = document.getElementById('texto');
 
-function agregar(x) {
-    display.value += x;
+function adivinar() {
+    const displayAdi = document.getElementById('displayAdi');
+    const numeroInput = document.getElementById('numero');
+    if ( !(isNaN((+numeroInput.value)) | (+numeroInput.value)<=0) ) {
+        if ((+numeroInput.value) < nAleatorio) {
+            displayAdi.innerHTML = "El número es mayor que "+(+numeroInput.value);
+        }
+        else if ((+numeroInput.value) > nAleatorio) {
+            displayAdi.innerHTML = "El número es menor que "+(+numeroInput.value);
+        }
+        else {
+            displayAdi.innerHTML="Número correcto! Felicidades!";
+            nAleatorio = math.ceil(math.random()*10);
+        }
+        
+    }
+    else {
+        displayAdi.innerHTML = "";
+    }
+    numeroInput.value="";
 }
 
-function agregarInicio(x) {
-    display.value = x+display.value;
+const displayCalc = document.getElementById('displayCalc');
+
+function calcAdd(x) {
+    displayCalc.value += x;
+}
+
+function calcAddFirst(x) {
+    displayCalc.value = x+displayCalc.value;
 }
 
 function clr() {
-    display.value = '';
+    displayCalc.value = '';
 }
 
 function del() {
-    display.value = display.value.substring(0, display.value.length - 1)
+    displayCalc.value = displayCalc.value.slice(0, -1);
 }
 
-function calcular() {
-    try {
-        display.value = math.evaluate(display.value);
-    } catch (e) {
-        alert('No se puede calcular');
-    }
+function calc() {
+    displayCalc.value = math.evaluate(displayCalc.value);
 }
