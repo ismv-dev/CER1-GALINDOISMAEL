@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Ismael Galindo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -80,8 +81,9 @@
             </a>
         </div>
     </section>
-
-    <section class="autos justify-content-center" id="autos">
+    
+    <div id="autos"></div>
+    <section class="autos justify-content-center">
         <h1 class="mb-4">Top 5 autos más rápidos del mundo</h1>
         <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -134,8 +136,9 @@
         </div>
     </section>
 
+    <div id="adivinar"></div>
     <section class="d-flex flex-column align-items-center justify-content-center">
-        <section class="adivinar col-10 col-lg-4  d-flex flex-column align-items-center justify-content-center text-center" id="adivinar">
+        <section class="adivinar col-10 col-lg-4  d-flex flex-column align-items-center justify-content-center text-center">
         <h1>Juego mayor/menor</h1>
         <span class="mb-2">Se eligió un número aleatorio entre 1 y 10, intenta adivinarlo</span>
         <input type="text" class="numero form-control" id="numero" placeholder="Numero">
@@ -143,8 +146,9 @@
         <p class="mt-4" id="displayAdi"></p>
         </section>
     </section>
-    
-    <section class="calculadora mt-5" style="padding: 4vh;" id="calculadora">
+
+    <div id="calculadora"></div>
+    <section class="calculadora mt-5" style="padding: 4vh;">
         <h3 style="text-align: center;">Calculadora</h3>
         <input type="text" class="displayCalc w-100 text-align-center display-6" id="displayCalc" disabled>
         <div class="btnscalc pt-4">
@@ -179,7 +183,8 @@
         </div>
     </section>
 
-    <footer id="redes">
+    <div id="redes"></div>
+    <footer>
         <a href="https://github.com/ismv-dev" target="_blank"><img class="redes" src="img/github.png" alt="GitHub"></a>
         <a href="https://www.linkedin.com/in/ismv-dev/" target="_blank"><img class="redes" src="img/lnkdin.png" alt="LinkedIn"></a>
     </footer>
