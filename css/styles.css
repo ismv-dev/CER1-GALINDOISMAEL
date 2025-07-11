@@ -3,20 +3,27 @@ body {
 }
 
 .navbar {
-    background-color: rgb(88, 202, 255) !important;
     border-radius: 0 0 40% 40%;
+}
+
+.bg-nav{
+    background-color: rgb(88, 202, 255) !important;
+}
+
+.navbar-collapse {
+    margin-right:0 !important;
 }
 
 @media (max-width: 992px) {
     .navbar {
-        border-radius: 0 0 40% 0;
+        border-radius: 0 0 0 40%;
     }
 }
 
 .btnnav {
     font-size: 2vh !important;
     text-align: center !important;
-    background-color: rgb(59, 189, 222) !important;
+    background-color: rgb(68, 190, 220) !important;
     border-radius: 20px !important;
     transition: all 200ms !important;
 }
