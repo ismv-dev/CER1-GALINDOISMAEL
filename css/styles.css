@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(138, 223, 245) !important;
+    background-color: rgb(0, 204, 255) !important;
     border-radius: 0 0 40% 40%;
 }
 
@@ -16,13 +16,13 @@ body {
 .btnnav {
     font-size: 2vh !important;
     text-align: center !important;
-    background-color: rgb(0, 204, 255) !important;
+    background-color: rgb(60, 216, 255) !important;
     border-radius: 20px !important;
     transition: all 200ms !important;
 }
 
 .btnnav:hover {
-    background-color: #ffffff53 !important;
+    background-color: #ffffffa8 !important;
 }
 
 .jumbotron {
@@ -69,13 +69,13 @@ body {
 
 .btnadivinar {
     font-size: 120% !important;
-    background-color: rgb(50, 214, 255) !important;
+    background-color: rgb(0, 178, 222) !important;
     border-radius: 20px !important;
     margin: 1% !important;
 }
 
 .btnadivinar:hover {
-    background-color: #ffffff90 !important;
+    background-color: #ffffff70 !important;
 }
 
 .calculadora {
